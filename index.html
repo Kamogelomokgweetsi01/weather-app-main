@@ -18,7 +18,7 @@
 
       <img src="./assets/images/logo.svg" alt="Logo icon">
 
-      <a href="#">Units <img src="./assets/images/icon-dropdown.svg"></a>
+      <a href="#"><span id="units-icon"><img src="./assets/images/icon-units.svg" /></span>Units <img src="./assets/images/icon-dropdown.svg"></a>
 
     </nav>
 
@@ -27,59 +27,173 @@
   <main>
 
 
-  <section class="weather-app">
-
-    <div class="search-section">
+    <div id="first-heading">
 
       <h1>How's the sky looking today?</h1>
 
-      <form class="search-form">
+    </div>
 
+    <div id="search">
+      <img src="./assets/images/icon-search.svg" />
+    </div>
+
+    
+
+    <section class="search-section">
+
+    <div>
+
+      <form>
         <input type="text" placeholder="Search for a city...">
-        <button type="submit">Search</button>
-
       </form>
 
     </div>
 
+    <div>
+
+      <button type="submit">Search</button>
+
+    </div>
+
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="first-block">
+
+      <div>
+
+        <div id="first-img">
+          <img src="./assets/images/bg-today-large.svg" />
+        </div>
+
+        <div id="sun-img">
+          <img src="./assets/images/icon-sunny.webp" />
+          <h1>20°</h1>
+        </div>
+
+        <div class="text-overlay">
+
+          <h1>Berlin, Germany</h1>
+          <p>Tuesday, Aug 5, 2025</p>
+
+        </div>
+
+
+      </div>
+
+      <div class="first-box">
+
+        <h3>Hourly forecast</h3>
+        
+        <button id="tues">Tuesday <img src="./assets/images/icon-dropdown.svg"></button>
+
+      </div>
+
+      <div class="mini-boxes">
+
+        <div class="box">
+
+          <h2>☁</h2>
+          <p>3 PM</p>
+
+          <span id="degrees">20°</span>
+
+        </div>
+
+        <div class="box">
+
+          <h2>⛅</h2>
+          <p>4 PM</p>
+
+          <span id="degrees">21°</span>
+
+        </div>
+
+        <div class="box">
+
+          <h2>☀</h2>
+          <p>5 PM</p>
+          
+
+          <span id="degrees">24°</span>
+
+        </div>
+
+        <div class="box">
+
+          <h2>☁</h2>
+          <p>6 PM</p>
+          
+
+          <span id="degrees">25°</span>
+
+        </div>
+
+        <div class="box">
+
+          <h2>🌧</h2>
+          <p>7 PM</p>
+          
+
+          <span id="degrees">21°</span>
+
+        </div>
+
+        <div class="box">
+
+          <h2>🌫</h2>
+          <p>8 PM</p>
+          
+
+          <span id="degrees">21°</span>
+
+        </div>
+
+        <div class="box">
+
+          <h2>🌧</h2>
+          <p>9 PM</p>
+          
+
+          <span id="degrees">21°</span>
+
+        </div>
+
+        <div class="box">
+
+          <h2>☁</h2>
+          <p>10 PM</p>
+          
+
+          <span id="degrees">21°</span>
+
+        </div>
+
+
+
+      </div>
+    
     </section>
 
+    <section class="info-cards">
 
-
-    <section class="firstimg">
-
-      <div class="today">
-
-        <img src="./assets/images/bg-today-large.svg" />
-
-      </div>
-
-
-
-      
-
-
-
-
-      <div class="text-overlay">
-
-        <h1>Berlin, Germany</h1>
-        <p>Tuesday, Aug 5, 2025</p>
-
-      </div>
-
-      <div class="sun">
-        <img src="./assets/images/icon-sunny.webp" />
-        <h1>20°</h1>
-      </div>
-
-    </section>
-
-
-
-      <div class="info-cards">
-
-        <div class="card">
+      <div class="card">
 
           <p>Feels Like</p>
           <h2>18°</h2>
@@ -96,7 +210,7 @@
         <div class="card">
 
           <p>Wind</p>
-          <h2>18°</h2>
+          <h2>14 km/h</h2>
 
         </div>
 
@@ -106,92 +220,18 @@
           <h2>0 mm</h2>
 
         </div>
-        </div>
 
 
+    </section>
 
 
-
-        <div class="right-section">
-
-          <div class="hourly-header">
-
-          </div>
-
-          <h3>Hourly forecast</h3>
-
-          <button id="tues">Tuesday <img src="./assets/images/icon-dropdown.svg"></button>
-
-        </div>
-
-        <div class="hourly-card">
-
-          <p>Tue</p>
-          <h2>🌧</h2>
-
-          <span>20°</span>
-
-        </div>
-
-        <div class="hourly-card">
-
-          <p>Wed</p>
-          <h2>🌧</h2>
-
-          <span>21°</span>
-
-        </div>
-
-        <div class="hourly-card">
-
-          <p>Thu</p>
-          <h2>☀</h2>
-
-          <span>24°</span>
-
-        </div>
-
-        <div class="hourly-card">
-
-          <p>Fri</p>
-          <h2>⛅</h2>
-
-          <span>25°</span>
-
-        </div>
-
-        <div class="hourly-card">
-
-          <p>Sat</p>
-          <h2>🌩</h2>
-
-          <span>21°</span>
-
-        </div>
-
-      </div>
-
+    <div id="daily">
+      <h3>Daily forecast</h3>
     </div>
-  </div>
 
+    <section class="forecast-cards">
 
-
-
-
-        
-  
-  
-  
-  
-  <div class="daily-forecast">
-
-    <h3>Daily forecast</h3>
-
-
-    <div class="forecast-cards">
-  
-  
-        <div class="forecast-card">
+      <div class="forecast-card">
 
           <p>Tue</p>
           <h2>🌧</h2>
@@ -235,10 +275,24 @@
           <span>21° 15°</span>
 
         </div>
-        </div>
+
+        <div class="forecast-card">
+
+          <p>Sun</p>
+          <h2>🌨</h2>
+
+          <span>21° 15°</span>
+
         </div>
 
-  </div>
+        <div class="forecast-card">
+
+          <p>Mon</p>
+          <h2>🌫</h2>
+
+          <span>21° 15°</span>
+
+        </div>
 
 
 
@@ -246,38 +300,9 @@
     </section>
 
 
-
-
-  </main>
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Kamogelo Mokgweetsi</a>.
   </footer>
 </body>
 </html>

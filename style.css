@@ -11,6 +11,9 @@ nav {
     padding: 1rem 2rem;
 }
 
+#units-icon img {
+    margin-right: 0.8rem;
+}
 nav a {
     color: hsl(0, 0%, 100%);
     text-decoration: none;
@@ -20,165 +23,189 @@ nav a {
     padding: 0.5rem 1rem;
     border-radius: 5px;
     background-color: hsl(243, 23%, 30%);
-
 }
 
-.search-section {
+#first-heading h1{
+    font-size: 80px;
     text-align: center;
 }
 
-.search-section h1 {
-    font-size: 80px;
+#search img{
+    position: absolute;
+    margin-left: 29%;
+    margin-top: 0.7%;
+
 }
 
 
-.search-form input {
+.search-section {
+    display: flex;
+    margin-left: 28%;
+    gap: 5rem;
+}
+
+.search-section input{
+    width: 670px;
+    height: 48px;
+    border-radius: 10px;
     border: none;
-    padding: 1rem 18rem;
-    border-radius: 11px;
-    margin-right: 4%;
+    font-size: 18px;
+    font-weight: bold;
     background-color: hsl(243, 23%, 30%);
-    font-size: large;
+    color: white;
+    padding-left: 9%;
 }
 
-.search-form button {
+.search-section button{
     border: none;
-    padding: 1rem 1rem;
-    border-radius: 11px;
+    width: 100px;
+    height: 48px;
+    border-radius: 10px;
     background-color: hsl(233, 67%, 56%);
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+
 }
 
-
-
-.firstimg {
-    display: block;
+#first-img img{
+    margin-top: 4%;
+    margin-left: 10%;
 }
 
-.today img {
-    margin-top: 3%;
-    margin-left: 3%;
+#sun-img img{
+    position: absolute;
+    top: 52%;
+    left: 35%;
+    height: 100px;
+    width: 100px;
 }
 
+#sun-img h1{
+    position: absolute;
+    top: 44%;
+    left: 44%;
+    font-size: 100px;
+}
 
-.text-overlay {
+.text-overlay{
     position: absolute;
     top: 50%;
-    margin-left: 5%;
+    left: 12%;
 }
 
-.sun img{
-    position: absolute;
-    top: 47%;
-    left: 27%;
-    height: 150px;
-    width: 150px;
+.first-box{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border: 1px solid black;
+    background-color: hsl(243, 23%, 24%);
+    width: 400px;
+    height: 700px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: -15.4%;
+    margin-left: 54%;
 }
 
-.sun h1{
-    position: absolute;
-    top: 42%;
-    left: 36%;
-    font-size: 100px;
+.first-box button{
+    height: 30px;
+    border-radius: 10px;
+    background-color: hsl(243, 23%, 30%);
+    width: 100px;
+    border: none;
+    margin-top: 2%;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.mini-boxes {
+    margin-left: 55.5%;
+    margin-top: -35%;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    width: 350px;
+    height: 50px;
+    margin: 10px;
+    background-color: hsl(243, 23%, 30%);
+    border-radius: 10px;
+   
+}
+
+.box h2{
+    margin-top: 2%;
+}
+
+.box p{
+    margin-left: -65%;
+    margin-top: 3%;
+    font-size: 20px;
+}
+
+#degrees {
+    margin-top: 2%;
+    font-size: 20px;
 }
 
 .info-cards{
     display: flex;
-    grid-template-columns: repeat(4), 1f;
-    gap: 25px;
-    margin-bottom: 30px;
-    margin-left: 1.2% ;
+    margin-top: -22.5%;
+    margin-left: 10%;
 }
 
-.card {
-    background: hsl(243, 23%, 30%);
-    padding: 10px 80px;
-    border-radius: 15px;
-    
+.card{
+    border: none;
+    width: 157px;
+    height: 90px;
+    text-align: left;
+    padding: 12px;
+    background-color: hsl(243, 23%, 30%);
+    margin: 10px;
+    border-radius: 10px;
 }
 
-.card p {
-    color: #bdbdbd;
-    margin-bottom: 10px;
+.card p{
+    margin-top: -0.5%;
+    font-size: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-.daily-forecast h3 {
-    margin-bottom: 20px;
+.card h2{
+    margin-top: -3%;
+    font-size: 40px;
+    font-weight: 100;
 }
 
+#daily {
+    margin-left: 10%;
+}
 
-.forecast-cards {
+.forecast-cards{
     display: flex;
-    gap: 15px;
+    margin-left: 10%;
 }
 
 .forecast-card{
-    background: hsl(243, 23%, 30%);
-    padding: 20px;
-    border-radius: 15px;
+    border: none;
+    width: 74px;
     text-align: center;
-    width: 100px;
-}
-
-.forecast-card h2 {
-    margin: 10px 0;
-}
-
-.right-section {
-    flex: 1;
-    background: hsl(243, 23%, 24%);
-    padding: 20px;
-    border-radius: 20px;
-    margin-left: 48%;
-    padding-bottom: 50%;
-    margin-top: -23%;
-    margin-right: 24%;
-}
-
-.hourly-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-    
-}
-
-#tues {
-    background: hsl(243, 23%, 30%);
-    color: white;
-    border: 1px solid black ;
     padding: 10px;
+    margin: 10px;
+    background-color: hsl(243, 23%, 30%);
     border-radius: 10px;
 }
 
-.hourly-card {
-    background: hsl(243, 23%, 30%);
-    padding: 15px;
-    border-radius: 10px;
-    margin-bottom: 15px;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 80%;
+
+
+
+
+footer {
+    margin-top: 10%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
